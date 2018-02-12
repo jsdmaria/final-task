@@ -1,0 +1,29 @@
+@font-face {
+    font-family: 'Crimson Text', arial;
+    src: local('Crimson'), local('Crimson-Roman'),
+    url('fonts/Crimson/Crimson-Roman.woff2') format('woff2'),
+    url('fonts/Crimson/Crimson-Roman.woff') format('woff'),
+    url('fonts/Crimson/Crimson-Roman.truetype') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+    src: local('Trebuchet MS'), local('Trebuchet MS'),
+    url('fonts/FuturaPT/futura-pt-medium.woff2') format('woff2'),
+    url('fonts/FuturaPT/futura-pt-medium.woff') format('woff'),
+    url('fonts/FuturaPT/futura-pt-medium.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    src: local('Helvetica Neue'), local('Helvetica Neue'),
+    url('fonts/Helvetica Neue/HelveticaNeue-Medium.woff2') format('woff2'),
+    url('fonts/Helvetica Neue/HelveticaNeue-Medium.woff') format('woff'),
+    url('fonts/Helvetica Neue/HelveticaNeue-Medium.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}

@@ -1,0 +1,375 @@
+@media screen and (max-width: 768px) {
+
+/*header*/
+
+    .header {
+        width: 100%;
+        position: relative;
+    }
+
+    .wrapper-text-box {
+        padding: 0;
+    }
+
+    .head-block {
+        display: none;
+    }
+
+    .menu-block {
+        width: 100%;
+    }
+
+    .wrapper-menu-box {
+        position: absolute;
+        width: 100%;
+        top: -9999px;
+        flex-direction: column;
+        border-top: 1px solid #d2d2d2;
+        background-color: #fff;
+        z-index: 5;
+    }
+
+    .navigation {
+        flex-direction: column;
+        font-size: 22pt;
+        padding: 0 0 0 5%;
+    }
+
+    .nav-point {
+        padding: 1em 0 0.5em 0;
+    }
+
+    .search-form-wrapper {
+        padding: 45% 0 0 0;
+    }
+
+    .search-block {
+        width: 32%;
+        padding: 0 0 0 5%;
+    }
+
+    .searching {
+        height: 2em;
+    }
+
+    .searching::placeholder {
+        font-size: 14pt;
+    }
+
+    hr {
+        display: block;
+    }
+
+    .head-block-mobile,
+    .mob-menu {
+        display: block;
+    }
+
+    .email-bag-block {
+        width: 55%;
+    }
+
+    .head-block-mobile {
+        width: 45%;
+    }
+
+    .bag-indicator {
+        width: 68%;
+        display: flex;
+        justify-content: flex-end;
+        padding: 5.5em 3em 5em 0;
+    }
+
+    .img-wrapper .bag-item {
+        margin: 10% 0 0 0;
+        width: 1.7em;
+    }
+
+    .mob-menu{
+        width: 32%;
+        text-align: center;
+        border-left: 1px solid #d2d2d2;
+        position: relative;
+    }
+
+    .menu-item {
+        width: 30%;
+        margin: 2.5em auto 2.5em auto;
+        padding: 2.5em 0 3em 0;
+    }
+
+    .cross-icon {
+        width: 30%;
+        margin: 4em auto 2.5em auto;
+        padding: 0 0 1em 0;
+
+    }
+
+    .cross-icon {
+        opacity: 0;
+        position: absolute;
+        top: -9999px;
+    }
+
+    .header .mob-menu:hover .wrapper-menu-box{
+        top: 100%;
+    }
+
+    h1 {
+        margin: 10% 0 0 10%;
+        font-size: 36pt;
+        font-weight: bold;
+    }
+
+    .email-signing {
+        display: none;
+    }
+
+    .img-wrapper {
+        width: 20%;
+    }
+
+    .bag-status {
+        font-size: 13pt;
+        padding: 0.2em 0 0 0;
+    }
+
+    .search-form-wrapper {
+        padding: 30% 0 10% 0;
+    }
+
+/*footer*/
+
+    .nav-contact-block {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .contacts {
+        width: 90%;
+    }
+
+    .lower-nav {
+        width: 100%;
+    }
+
+    .lower-menu {
+        padding: 1em 0 3em 1.5em;
+        border-bottom: 1px solid #d2d2d2;
+    }
+
+    .segment-name {
+        font-size: 12pt;
+    }
+
+    .lower-menu:nth-child(1) .customer-info {
+        margin: 10% 0 0 0;
+    }
+
+    .customer-info {
+        font-size: 10pt;
+    }
+
+    .link {
+        padding: 0.7em 0 0.7em 0;
+    }
+
+    .order-info {
+        flex-direction: row;
+        width: 100%;
+        padding: 0 0 2em 1.3em;
+        margin: 0;
+    }
+
+    .phone-order {
+        margin: 0;
+        border-left: 1px solid #d2d2d2;
+    }
+
+    .phone-order p:last-child {
+       padding-left: 7%;
+       padding-bottom: 15%;
+    }
+
+    .phone-order p:first-child {
+        padding-left: 7%;
+    }
+
+    .question-box {
+        margin: 0;
+    }
+
+    .contacts {
+        position: relative;
+        padding: 0;
+    }
+
+    .social-networks-items {
+        position: absolute;
+        z-index: 2;
+        top: 75%;
+        left: 80%;
+        display: block;
+    }
+
+    .icon-wrap:last-child {
+        position: absolute;
+        top: -10%;
+        left: 350%;
+    }
+
+/*sec footer*/
+
+    .rights-block {
+        display: block;
+        position: relative;
+        width: 100%;
+    }
+
+    .rights-box {
+        width: 50%;
+        float: left;
+    }
+
+    .rights-box p {
+        font-size: 8pt;
+        padding: 2em 0 2em 1.8em;
+        margin: 0;
+    }
+
+    .followers-inticator {
+        margin: 1.5em 4em 1.5em 1.5em;
+    }
+
+    .share-info-box {
+        display: flex;
+        justify-content: flex-end;
+        width: 50%;
+        padding: 0;
+      
+    }
+
+    .share-info-box p {
+        margin: 1em 0 0 0;
+        font-size: 12pt;
+    }
+
+    .policy-map-box {
+        position: absolute;
+        z-index: 1;
+        top: -110%;
+        width: 100%;
+        float: none;
+        justify-content: flex-start;
+        border-top: 1px solid #d2d2d2;
+        background: #fff;
+    }
+
+    .policy-map-box p {
+        margin: 2em 1em 2em 2em;
+    }
+
+    .lower-menu:nth-child(1){
+        width: 48%;
+    }
+
+    .lower-menu:nth-child(2){
+        width: 52%;
+    }
+
+    .loupe {
+        display: none;
+    }
+
+    .search-block {
+        position: static;
+    }
+}
+
+@media screen and (max-width: 500px) {
+
+    .rights-box p {
+        font-size: 7.5pt;
+    }
+
+    .policy-map-box {
+        top: -115%;
+    }
+
+    .policy-map-box p {
+        margin: 2em 0 1em 2em;
+    }
+
+    .rights-box {
+        width: 65%;
+    }
+
+    .share-info-box {
+        width: 35%;
+    }
+
+    .social-networks-items {
+        top: 74%;
+    }
+
+    .icon-wrap:last-child {
+        left: 300%;
+    }
+
+    .menu-item {
+        margin: 0;
+        padding: 2.5em 0 2em 0;
+    }
+
+    .bag-status {
+        font-size: 10pt;
+        margin-top: 0.8em;
+    }
+
+    .img-wrapper .bag-item {
+        margin-top: 1.5em;
+        width: 1.3em;
+    }
+
+    .email-bag-block {
+        width: 65%;
+    }
+
+    .head-block-mobile {
+        width: 35%;
+    }
+
+    .bag-indicator {
+        width: 75%;
+        padding: 1.5em 3em 3em 0;
+    }
+
+    .mob-menu{
+        width: 25%;
+    }
+
+    h1 {
+        font-size: 28pt;
+        margin: 8% 10% 0 10%;
+    }
+
+    .bag-item {
+        width: 1.5em;
+    }
+
+    .navigation {
+        flex-direction: column;
+        font-size: 18pt;
+        padding: 0 0 0 4%;
+    }
+
+    .nav-point {
+        padding: 0.5em 0 0.7em 0;
+    }
+
+    .searching::placeholder {
+        font-size: 11pt;
+    }
+
+
+}

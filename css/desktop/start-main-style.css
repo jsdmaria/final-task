@@ -1,0 +1,257 @@
+/*slider*/
+
+.slider {
+	position: relative;
+	width: 100%;
+	background: #f7f7f7;
+	overflow: hidden;
+}
+
+.slider-area {
+	display: flex;
+	width: 100%;
+}
+
+.slider-area,
+.nike-hats-caps-block {
+	border-top: 0.7px solid #d2d2d2;
+}
+
+.slide-box:nth-child(2),
+.slide-box:nth-child(3) {
+	display: none;
+}
+
+.slider-img-wrapper {
+	width: 100%;
+
+}
+
+.slider-img, .hats-img, .nike-img {
+	width: 100%;
+	height: 100%;
+}
+
+.slide-box {
+	width: 100%;
+	height: 100%;
+	display: flex;
+	flex-direction: row;
+	transition: 1s;
+	animation-name: nextImgDesk;
+	animation-duration: 3s;
+	animation-iteration-count: 1;
+}
+
+/*arrows*/
+
+.arrow-left, .arrow-right {
+	position: absolute;
+	top: 40.8%;
+	width: 2.8%;
+	background-color: #f14a58;
+	text-align: center;
+	color: #fff;
+	font-size: 20pt;
+	font-weight: bold;
+	padding: 2.7% 0 2.7% 0;
+	cursor: pointer;
+}
+
+.arrow-right {
+	top: 40.8%;
+	left: 97.2%;
+}
+
+/*radios*/
+
+.radio-indicators {
+	display: flex;
+	justify-content: space-around;
+	width: 7%;
+	margin: 0 auto;
+	padding: 2.4% 0 2.5% 0;
+}
+
+.radio {
+	transition: 0.5s all;
+	width: 4.5px;
+	height: 4.5px;
+	border-radius: 100%;
+	background-color: #d2d2d2;
+}
+
+.radio:first-child {
+	background-color: #f14a58;
+}
+
+/*arrivals section, Nike&Hats block*/
+
+.nike-hats-caps-block {
+	display: flex;
+	width: 100%;
+	height: auto;
+	margin: 0 auto;
+	border-bottom: 0.7px solid #d2d2d2;
+}
+
+.nike, .hats {
+	width: 50%;
+	position: relative;
+}
+
+.hats {
+	background-image: url("../../img/hats.png");
+	background-size: cover;
+	border-left: 1px solid #d2d2d2;
+}
+
+.img-banner-wrapper {
+	width: 100%;
+	height: 98%;
+}
+
+.head-name {
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 18pt;
+	font-weight: bold;
+	margin: 0;
+}
+
+.hats-img {
+	position: absolute;
+	opacity: 0;
+
+}
+
+.hats .banner-text {
+	position: absolute;
+	top: 16%;
+	left: 58%;
+	text-align: center;
+}
+
+.nike .banner-text {
+	position: absolute;
+	top: 16%;
+	left: 65%;
+	text-align: center;
+}
+
+.banner-text .cursive-text {
+	margin: 3%;
+}
+
+.bag-img {
+	width: 33.3%;
+	background-image: url("../../img/bag.png");
+	background-size: cover;
+	border-left: 1px solid #d2d2d2;
+	display: none;
+}
+
+.cursive-text {
+	font-family: 'Times New Roman', serif;
+	font-style: italic;
+	font-size: 9pt;
+	color: #b9b9b9;
+}
+
+/*new arrivals text*/
+
+.text-block {
+	margin: 0 auto;
+}
+
+.arrivals-text {
+	font-size: 32pt;
+	font-weight: bold;
+	text-align: center;
+	padding: 10% 0 6.5% 0;
+	margin: 0;
+}
+
+/*goods-block*/
+
+.goods-block {
+	display: flex;
+	justify-content: space-between;
+	width: 95%;
+	margin: 0 auto;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 8.5pt;
+	font-weight: bold;
+}
+
+.goods-box {
+	text-align: center;
+}
+
+.goods-img {
+	width: 80%;
+	height: auto;
+}
+
+.background {
+	width: 80%;
+	left: 10%;
+}
+
+.point-text {
+	top: 40%;
+}
+
+.good-name {
+	padding: 15% 0 0 0;
+}
+
+.price-box {
+	display: flex;
+	justify-content: center;
+}
+
+.good-price {
+	margin: 1.1em 0.8em 0 0;
+	font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+	font-weight: lighter;
+}
+
+/*arrivals button*/
+
+.button-block {
+	text-align: center;
+}
+
+.main-button {
+	margin: 8% 0 6% 0;
+	font-size: 15pt;
+	font-weight: bold;
+	background: none;
+	border: 1px solid #e5e5e5;
+	padding: 1.7% 8% 1.7% 8%;
+	outline: 0;
+	cursor: pointer;
+}
+
+.main-button:hover {
+	color: #f14a58;
+	border-color: #f14a58;
+}
+
+/*animation*/
+
+
+@keyframes nextImgDesk {
+	from {
+		opacity: 0;
+	}
+	to {
+		opacity: 1;
+	}
+}
+
+
+
+
+
+

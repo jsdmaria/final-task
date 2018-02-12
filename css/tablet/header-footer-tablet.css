@@ -1,0 +1,127 @@
+@media screen and (max-width: 1023px) {
+
+/*header*/
+
+    .head-block {
+        width: 65.3%;
+    }
+
+    .email-bag-block {
+        width: 32%;
+    }
+
+    .email-signing,
+    .bag-status {
+        font-size: 8.3pt;
+    }
+
+    .menu-block {
+        width: 90%;
+    }
+
+    .wrapper-menu-box {
+        position: relative;
+        padding: 0 0 0.8em 0;
+    }
+
+    .searching:hover {
+        cursor: pointer;
+    }
+
+    .search-form-wrapper {
+        padding: 0;
+        background-color: #fff;
+    }
+
+    .search-block {
+        position: absolute;
+        right: 0;
+        width: 34.5%;
+        top: -9999px;
+        box-shadow: -35px -5px 15px rgba(255,255,255,1);
+    }
+
+    .navigation {
+        font-size: 10pt;
+    }
+
+    .loupe {
+        top: 37%;
+        right: 0.4%;
+    }
+
+/*footer*/
+
+    .lower-nav {
+        width: 66%;
+    }
+
+    .lower-menu:nth-child(1),
+    .lower-menu:nth-child(2) {
+        width: 50%;
+    }
+
+    .lower-menu:nth-child(2) {
+        padding-left: 2%;
+    }
+
+    .contacts {
+        width: 34%;
+        border-left: none;
+    }
+
+    .order-info {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .question-box,
+    .phone-order {
+        width: 100%;
+    }
+
+    .phone-order {
+        margin: 4% 0 0 0;
+    }
+
+    .quote,
+    .social-networks-items {
+        display: none;
+    }
+
+    .segment-name {
+        font-size: 12pt;
+    }
+
+    .customer-info {
+        font-size: 9pt;
+    }
+
+    /*sec-footer*/
+
+    .rights-box,
+    .share-info-box,
+    .policy-map-box {
+        width: 33.3%;
+    }
+
+    .policy-map-box {
+        justify-content: space-around;
+    }
+
+    .rights-box p,
+    .policy-map-box p {
+        margin: 1.7em 0 1.7em 0;
+    }
+
+    .rights-box,
+    .policy-map-box-text {
+        font-size: 8.5pt;
+        font-weight: bold;
+    }
+
+    .share-info-box {
+        padding-top: 0.25em;
+    }
+
+}

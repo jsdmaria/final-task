@@ -1,0 +1,119 @@
+@media screen and (max-width: 768px) {
+
+/*slider*/
+
+    .slider-img {
+        width: 210%;
+        margin: 0 0 0 -110%;
+    }
+
+    .slide-box:first-child {
+        width: 100%;
+        background-image: url("../../img/sl1mob.png");
+        background-size: cover;
+    }
+
+    .radio-indicators {
+        width: 15%;
+    }
+
+    /*the sec slide*/
+
+    .slide-box:nth-child(2) {
+        width: 100%;
+        background-image: url("../../img/sl2mob.png");
+        background-size: cover;
+    }
+
+    /*the third slide*/
+
+    .slide-box:last-child {
+        width: 100%;
+        background-image: url("../../img/sl3mob.png");
+        background-size: cover;
+    }
+
+/*hats & bag block*/
+
+    .nike {
+        width: 100%;
+    }
+
+    .bag-img{
+        display: none;
+    }
+
+    .good-price,
+    .good-name {
+        font-size: 10pt;
+    }
+
+    .cursive-text {
+        font-size: 14pt;
+    }
+
+    .head-name {
+        font-size: 22pt;
+    }
+
+/*text block*/
+
+    .arrivals-text {
+        font-size: 32pt;
+    }
+
+    .goods-block .goods-box:nth-child(3) {
+        display: none;
+    }
+
+    .goods-box {
+        width: 50%;
+    }
+
+    .goods-img {
+        width: 92%;
+    }
+
+    .good-price {
+        margin: 1em 0.8em 0 0;
+    }
+
+    .background {
+        width: 92%;
+        left: 4%;
+    }
+
+    .point-text {
+        top: 45%;
+        left: 35%;
+    }
+
+/*button block*/
+
+    .main-button {
+        padding: 4% 16% 4% 16%;
+        margin: 8% 0 20% 0;
+    }
+
+}
+
+@media screen and (max-width: 500px) {
+
+    .arrivals-text {
+        font-size: 25pt;
+    }
+
+    .head-name {
+        font-size: 18pt;
+    }
+
+    .cursive-text {
+        font-size: 11pt;
+    }
+
+    .radio {
+        width: 4px;
+        height: 4px;
+    }
+
+}

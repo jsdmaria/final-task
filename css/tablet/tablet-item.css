@@ -1,0 +1,77 @@
+@media screen and (max-width: 1023px) {
+
+/*detailed-info*/
+
+    .detailed-info,
+    .image-row {
+        flex-direction: column;
+    }
+
+    .gallery {
+        display: flex;
+    }
+
+    .gallery,
+    .point-info {
+        width: 100%;
+    }
+
+    .main-image {
+        width: 75%;
+    }
+
+    .image-row {
+        width: 25%;
+        margin-top: 0.5%;
+    }
+
+    .image-wrapper {
+        width: 99%;
+        height: 33.3%;
+    }
+
+    .background {
+        height: 99%;
+    }
+
+    .point-info {
+        text-align: center;
+    }
+
+    .size,
+    .color {
+        justify-content: center;
+        padding: 0 0 1.5em 0;
+    }
+
+    .main-button {
+        margin: 5% 0 0 3%;
+    }
+
+    .info {
+        padding: 0 2.6em 2em 2.6em;
+    }
+
+    .price {
+        padding: 0 0 1.5em 0;
+    }
+
+    .name {
+        padding: 1em 0 0.8em 0;
+    }
+
+/*banners*/
+
+    .bags {
+        display: none;
+    }
+
+    .hoodies {
+        width: 66%;
+    }
+
+    .jeans {
+        width: 34%;
+    }
+
+}

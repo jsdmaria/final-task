@@ -1,0 +1,228 @@
+@media screen and (max-width: 768px) {
+
+/*filter*/
+
+    .filters-block .filter-selections li {
+        font-size: 14pt;
+    }
+
+    .filters-block .filter-selections li:last-child .li-img {
+        display: none;
+    }
+
+    .item-price .li-img {
+        width: 5%;
+    }
+
+    .filter-selections {
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: clip; 
+    }
+
+    .abs-div {
+        font-size: 14pt;
+    }
+
+    .item-fashion .ul-tab {
+        top: 9em;
+        left: 0.4em;
+    }
+
+    .item-type .ul-tab {
+        top: 9em;
+        left: 17em;
+    }
+
+    .item-color .ul-tab {
+        top: 30em;
+        left: 0.4em;
+        width: 7em;
+    }
+
+    .item-brand .ul-tab {
+        top: 30em;
+        left: 17em;
+    }
+
+    .item-size .ul-tab {
+        top: 49em;
+        left: 0.4em;
+    }
+
+    .item-price .ul-tab {
+        top: 49em;
+        left: 17em;
+        width: 7em;
+    }
+
+    .item-fashion .abs-div {
+        top: 6em;
+        left: 1.7em;
+    }
+
+    .item-type .abs-div {
+        top: 6em;
+        left: 18.4em;
+    }
+
+    .item-color .abs-div {
+        top: 26.5em;
+        left: 1.7em;
+    }
+
+    .item-brand .abs-div {
+        top: 26.5em;
+        left: 18.4em;
+    }
+
+    .item-size .abs-div {
+        top: 45.5em;
+        left: 1.7em;
+    }
+
+    .item-price .abs-div {
+        top: 45.5em;
+        left: 18.4em;
+    }
+
+    .back-box {
+        height: 77em;
+        z-index: 2;
+    }
+
+    .trian {
+        display: block;
+    }
+
+/*goods*/
+
+    .goods-box {
+        width: 50%;
+        padding-top: 2.5em;
+    }
+
+    .stock-propositions-mob-block {
+        display: block;
+    }
+
+    .stock-propositions-tab-block {
+        display: none;
+    }
+
+    .stock-propositions-mob-block .cursive-text {
+        font-size: 12pt;
+        line-height: 1.8em;
+        font-weight: normal;
+        color: #262626;
+    }
+
+/*button*/
+
+    .main-button {
+        margin: 7% 0 14% 0;
+        padding: 5% 17% 5% 17%;
+        font-size: 20pt;
+    }
+
+/*banner*/
+
+    .hoodies {
+        width: 100%;
+    }
+
+    .jeans {
+        display: none;
+    }
+
+}
+
+@media screen and (max-width: 530px) {
+
+    .good-name,
+    .good-price,
+    .cursive-text {
+        font-size: 10pt;
+    }
+
+    .filters-block .filter-selections li {
+        font-size: 12pt;
+    }
+
+    .trian {
+        box-shadow: -15px 0px 10px -3px rgba(255,255,255,1);
+    }
+
+    .trian-img {
+        padding: 1.7em 0 0 1em;
+    }
+
+    .abs-div {
+        font-size: 11pt;
+    }
+
+    .item-fashion .ul-tab {
+        top: 8em;
+        left: -0.1em;
+    }
+
+    .item-type .ul-tab {
+        top: 8em;
+        left: 11.7em;
+    }
+
+    .item-color .ul-tab {
+        top: 27.5em;
+        left: -0.1em;
+        width: 7em;
+    }
+
+    .item-brand .ul-tab {
+        top: 27.5em;
+        left: 11.7em;
+    }
+
+    .item-size .ul-tab {
+        top: 45.5em;
+        left: -0.1em;
+    }
+
+    .item-price .ul-tab {
+        top: 45.5em;
+        left: 11.7em;
+    }
+
+    .item-fashion .abs-div {
+        top: 6em;
+        left: 1.7em;
+    }
+
+    .item-type .abs-div {
+        top: 6em;
+        left: 14.5em;
+    }
+
+    .item-color .abs-div {
+        top: 27em;
+        left: 1.7em;
+    }
+
+    .item-brand .abs-div {
+        top: 27em;
+        left: 14.5em;
+    }
+
+    .item-size .abs-div {
+        top: 46.5em;
+        left: 1.7em;
+    }
+
+    .item-price .abs-div {
+        top: 46.5em;
+        left: 14.5em;
+    }
+
+    .back-box {
+        height: 63em;
+    }
+}

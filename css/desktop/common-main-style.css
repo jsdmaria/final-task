@@ -1,0 +1,110 @@
+/*bunners-block*/
+
+.bunners-block {
+	display: flex;
+}
+
+.hoodies,
+.jeans,
+.bags {
+	position: relative;
+}
+
+.hoodies {
+	width: 50%;
+}
+
+.jeans,
+.bags {
+	width: 25%;
+}
+
+.some-img {
+	width: 100%;
+	height: 100%;
+}
+
+.hoodies .head-name,
+.jeans .head-name,
+.bags .head-name,
+.hoodies .cursive-text,
+.jeans .cursive-text,
+.bags .cursive-text {
+	position: absolute;
+	color: #fff;
+}
+
+.hoodies .head-name {
+	font-size: 20pt;
+	top: 14%;
+	right: 17%;
+}
+
+.hoodies .cursive-text {
+	top: 24%;
+	right: 25%;
+}
+
+.jeans .head-name {
+	font-size: 20pt;
+	bottom: 20%;
+	right: 20%;
+}
+
+.jeans .cursive-text {
+	bottom: 10%;
+	right: 40%;
+	font-style: normal;
+}
+
+.bags .head-name {
+	font-size: 20pt;
+	bottom: 20%;
+	right: 40%;
+	color: #f14a58;
+}
+
+.bags .cursive-text {
+	bottom: 10%;
+	right: 42%;
+	color: #c1c1c1;
+}
+
+/*goods-wrappers (hover-stuff)*/
+
+.image-wrapper,
+.img-container {
+	position: relative;
+}
+
+.img-container:hover .point-text,
+.img-container:hover .background {
+	opacity: 1;
+	cursor: pointer;
+}
+
+.background {
+	position: absolute;
+	opacity: 0;
+	top: 0;
+	height: 99%;
+	color: rgba(0,0,0,0);
+	background: rgba(76, 75, 75, 0.4);
+	transition: 0.5s all;
+}
+
+.point-text {
+	opacity: 0;
+	position: absolute;
+	top: 42%;
+	left: 30%;
+	font-size: 16pt;
+	font-weight: bold;
+	color: #f14a58;
+}
+
+/*color-word*/
+
+.color-word {
+	color: #f14a58;
+}

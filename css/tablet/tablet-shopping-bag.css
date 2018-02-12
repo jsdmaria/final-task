@@ -1,0 +1,48 @@
+@media screen and (max-width: 1023px) {
+
+/*goods*/
+
+    .img-container {
+        width: 50%;
+    }
+
+    .good {
+        width: 90%;
+    }
+
+    .background {
+        width: 90%;
+    }
+
+    .point-text {
+        top: 40%;
+        left: 20%;
+    }
+
+/*item-info-block*/
+
+    .item-name,
+    .item-price {
+        font-size: 11pt;
+    }
+
+    .item-info-container {
+        margin: 3em 0 0 2em;
+        font-size: 9pt;
+    }
+
+    .item-color,
+    .item-size,
+    .items-quantity {
+        margin: 0 0 4% 0;
+    }
+
+    .remove-block {
+        margin: 5% 0 0 -4%;
+    }
+
+    .checkout-block {
+        font-size: 9pt;
+    }
+
+}

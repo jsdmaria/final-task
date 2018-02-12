@@ -1,0 +1,132 @@
+@media screen and (max-width: 768px) {
+
+/*name block*/
+
+    .name-block {
+        padding: 2% 0 2% 5%;
+    }
+
+    .name-block h1{
+        font-size: 20pt;
+        margin: 0;
+    }
+
+/*gallery*/
+
+    .gallery {
+        flex-direction: column;
+    }
+
+    .main-image {
+        width: 100%;
+    }
+
+    .image-row {
+        flex-direction: row;
+        width: 100%;
+        margin-top: 0;
+    }
+
+/*point-info*/
+
+    .name {
+        padding: 1em 0 0.5em 0;
+        font-size: 28pt;
+    }
+
+    .reverse {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .price {
+        font-size: 22pt;
+        padding: 0 0 1em 0;
+    }
+
+    .info {
+        font-size: 16pt;
+        left: 2.5em;
+    }
+
+    .size,
+    .color {
+        justify-content: space-between;
+        font-size: 12pt;
+    }
+
+/*buttons block*/
+
+    .buttons input {
+        padding: 1.2em 0 1.2em 0;
+        font-size: 13pt;
+    }
+
+    .size-text,
+    .color-text {
+        margin: 1.5em 3.3em 0 0;
+    }
+
+    .size,
+    .color {
+        width: 80%;
+    }
+
+    .size .buttons {
+        justify-content: space-between;
+        width: 70%;
+    }
+
+    .color .buttons {
+        justify-content: flex-start;
+        width: 70%;
+    }
+
+    .color .buttons input:first-child {
+        margin: 0 1.3em 0 0;
+    }
+
+    .button-wrapper input {
+        font-size: 20pt;
+    }
+
+    .main-button {
+        padding: 1em 4.5em;
+    }
+
+/*bunners*/
+
+    .jeans {
+        display: none;
+    }
+
+    .hoodies {
+        width: 100%;
+    }
+
+}
+
+@media screen and (max-width: 530px) {
+
+    .name-block h1{
+        font-size: 16pt;
+    }
+
+    .size {
+        width: 90%;
+    }
+
+    .size .buttons {
+        width: 80%;
+    }
+
+    .button-wrapper input {
+        font-size: 16pt;
+    }
+
+    .info {
+        padding: 0 0 1em 0;
+    }
+
+
+}

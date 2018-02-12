@@ -1,0 +1,102 @@
+@media screen and (max-width: 1023px) {
+
+/*slider*/
+
+    .slider-img {
+        width: 160%;
+        margin: 0 0 0 -60%;
+        opacity: 0;
+    }
+
+    .arrow-right,
+    .arrow-left {
+        display: none;
+    }
+
+/*radio*/
+
+    .radio-indicators {
+        width: 12%;
+        padding: 4% 0 4% 0;
+    }
+
+    .radio {
+        width: 7px;
+        height: 7px;
+    }
+
+/*hats & bag block*/
+
+    .nike {
+        width: 67%;
+    }
+
+    .hats {
+        display: none;
+    }
+
+    .bag-img {
+        display: block;
+    }
+
+    .cursive-text,
+    .good-price,
+    .good-name {
+        font-size: 11pt;
+    }
+
+/*text block*/
+
+    .arrivals-text {
+        font-size: 45pt;
+    }
+
+    .goods-block .goods-box:last-child {
+        display: none;
+    }
+
+    .goods-img {
+        width: 95%;
+    }
+
+    .good-price {
+        margin: 1em 0.8em 0 0;
+    }
+
+    .background {
+        width: 95%;
+        left: 2.5%;
+    }
+
+/*button block*/
+
+    .main-button {
+        padding: 3% 13% 3% 13%;
+        margin: 8% 0 16% 0;
+    }
+
+    /*the first slide*/
+
+    .slide-box:first-child {
+        width: 100%;
+        background-image: url("../../img/sl1tab.png");
+        background-size: cover;
+    }
+
+    /*the sec slide*/
+
+    .slide-box:nth-child(2) {
+        width: 100%;
+        background-image: url("../../img/sl2tab.png");
+        background-size: cover;
+    }
+
+    /*the third slide*/
+
+    .slide-box:last-child {
+        width: 100%;
+        background-image: url("../../img/sl3tab.png");
+        background-size: cover;
+    }
+
+}

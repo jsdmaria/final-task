@@ -1,0 +1,222 @@
+@media screen and (max-width: 1023px) {
+
+/*filters desk*/
+
+    .filter-selections .li-img {
+        display: none;
+    }
+
+    .filters-block {
+        display: flex;
+        cursor: pointer;
+        position: relative;
+    }
+
+    .trian {
+        display: none;
+        width: 8%;
+        box-shadow: -27px 0px 17px -4px rgba(255,255,255,1)
+    }
+
+    .trian-img {
+        padding: 2em 0 0 1em;
+    }
+
+    .filters-block .filter-selections li {
+        border: transparent;
+        width: auto;
+        font-size: 12pt;
+        font-weight: bold;
+        padding: 1.2em 0.5em 1.2em 0;
+        position: static;
+    }
+
+    .filters-block .filter-selections li:hover {
+        border: transparent;
+    }
+
+    .ul-hover {
+        display: none;
+    }
+
+    .ul-tab {
+        position: absolute;
+        z-index: 3;
+        color: #a8a8a8;
+    }
+
+    .filters-block .filter-selections li .ul-tab li {
+        padding: 0.5em;
+        list-style: disc;
+    }
+
+    .filters-block .filter-selections li .ul-tab li:first-child {
+        color: #000;
+    }
+
+    .item-fashion .ul-tab {
+        top: 9em;
+        left: 1.5em;
+    }
+
+    .item-type .ul-tab {
+        top: 9em;
+        left: 19.5em;
+    }
+
+    .item-color .ul-tab {
+        top: 9em;
+        left: 37.5em;
+        width: 7em;
+    }
+
+    .item-brand .ul-tab {
+        top: 30em;
+        left: 1.5em;
+    }
+
+    .item-size .ul-tab {
+        top: 30em;
+        left: 19.5em;
+        width: 7em;
+    }
+
+    .item-price .ul-tab {
+        top: 30em;
+        left: 37.5em;
+        width: 7em;
+    }
+
+    .item-fashion .abs-div {
+        top: 6em;
+        left: 2.8em;
+    }
+
+    .item-type .abs-div {
+        top: 6em;
+        left: 21em;
+    }
+
+    .item-color .abs-div {
+        top: 6em;
+        left: 39.1em;
+    }
+
+    .item-brand .abs-div {
+        top: 26.5em;
+        left: 2.8em;
+    }
+
+    .item-size .abs-div {
+        top: 26.5em;
+        left: 21em;
+    }
+
+    .item-price .abs-div {
+        top: 26.5em;
+        left: 39.1em;
+    }
+
+    .filter-selections {
+        margin: 0 0 0 4.5%;
+        justify-content: flex-start;
+        width: 90%;
+    }
+
+    .abs-div {
+        opacity: 1;
+        z-index: 4;
+        font-size: 12pt;
+        display: none;
+    }
+
+    .filters-block .filter-selections li:last-child,
+    .filters-block .filter-selections li:first-child {
+        padding: 1.2em 0.5em 1.2em 0;
+    }
+
+    .filters-block .filter-selections li:last-child .li-img {
+        display: block;
+    }
+
+    .item-price .li-img {
+        margin: -10% 0 0 7%;
+    }
+
+    .item-price .coma {
+        opacity: 0;
+    }
+
+/*goods*/
+
+    .goods-box {
+        width: 33.3%;
+    }
+
+    .stock-propositions-block {
+        display: none;
+    }
+
+    .stock-propositions-tab-block {
+        display: block;
+        margin: 0 auto;
+    }
+
+    .text-proposition br,
+    .cursive-text br {
+        content: normal;
+    }
+
+    .text-proposition {
+        font-size: 18pt;
+        line-height: 1.8em;
+        margin: 2em 0 0 0;
+    }
+
+    .stock-propositions-tab-block .cursive-text{
+        content: normal;
+        color: #262626;
+        font-size: 14pt;
+        line-height: 1.8em;
+    }
+
+    .good-name,
+    .good-price,
+    .cursive-text {
+        font-size: 11pt;
+    }
+
+    .good-name {
+        line-height: 1.5em;
+    }
+
+/*button block*/
+
+    .main-button {
+        margin: 7% 0 14% 0;
+        padding: 2% 8% 2% 8%;
+    }
+
+/*banners block*/
+
+    .bags {
+        display: none;
+    }
+
+    .hoodies {
+        width: 66%;
+    }
+
+    .jeans {
+        width: 34%;
+    }
+
+    .jeans .head-name {
+        right: 17%;
+    }
+
+    .coma {
+        opacity: 1;
+    }
+
+}

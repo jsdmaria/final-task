@@ -1,0 +1,351 @@
+
+body {
+	font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+	padding: 0;
+	margin: 0 auto;
+	max-width: 1300px;
+}
+
+/* head-block*/
+
+.header,
+.footer {
+	display: flex;
+	flex-direction: column;
+	margin: 0 auto;
+}
+
+.header {
+	max-width: 1180px;
+	width: 91%;
+}
+
+.footer {
+	width: 100%;
+	max-width: 1300px;
+}
+
+.wrapper-text-box,
+.wrapper-menu-box,
+.email-bag-block,
+.bag-indicator {
+	display: flex;
+}
+
+.wrapper-text-box {
+	padding: 1.3em 0 0 0;
+}
+
+.head-block {
+	width: 78.3%;
+}
+
+h1 {
+	margin: 0;
+	font-size: 20pt;
+}
+
+h1 a:hover {
+	color: #f14a58;
+}
+
+.head-block-mobile,
+.mob-menu {
+	display: none;
+}
+
+.email-bag-block {
+	display: flex;
+	justify-content: space-between;
+	width: 20%;
+	font-size: 7pt;
+}
+
+.email-signing  {
+	width: 50%;
+	padding: 3.5% 0 0 1%;
+}
+
+.email-signing a:hover {
+	color: #f14a58;
+}
+
+.total-bag-price {
+	padding: 0 0.6em 0 0.6em;
+}
+
+.bag-indicator  {
+	padding: 4% 0 0 0;
+}
+
+
+.bag-item {
+	height: auto;
+}
+
+.bag-status  {
+	display: flex;
+	padding: 0 0 0 19%;
+}
+
+.wrapper-menu-box {
+	padding: 0 0 0.7em 0;
+	justify-content: space-between;
+}
+
+.menu-block {
+	width: 80%;
+	padding-top: 0.5%;
+}
+
+.search-block {
+	width: 20%;
+}
+
+.navigation {
+	display: flex;
+	justify-content: space-between;
+	margin: 0;
+	padding: 1.5% 0 0 0;
+	font-size: 8.5pt;
+	font-weight: bold;
+}
+
+.nav-point, .link {
+	list-style: none;
+}
+
+.nav-point a:hover {
+	color: #f14a58;
+}
+
+a {
+	text-decoration: none;
+	color: #000;
+}
+
+.search-form-wrapper {
+	padding: 7% 0 0 50%;
+
+}
+
+.searching {
+	width: 100%;
+	border: none;
+	outline: none;
+	background-image: url('../../img/loupe.png');
+	background-repeat: no-repeat; /*Убираем повтор изображения*/
+	background-position: 99%;
+}
+
+.searching::placeholder {
+	font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+	font-size: 7.5pt;
+	font-weight: bold;
+	color: #a8a8a8;
+}
+
+.searching:-ms-input-placeholder {
+	font-size: 9pt;
+	color: #c1c1c1;
+}
+
+.loupe {
+	position: absolute;
+	top: -9999px;
+}
+
+hr {
+	margin: 2% 0 0 0;
+	border: none;
+	background: #e5e5e5;
+	height: 1px;
+}
+
+/* footer,
+	nav-contact-block
+*/
+
+.nav-contact-block,
+.lower-nav,
+.order-info,
+.share-info-box,
+.policy-map-box,
+.tweet-box,
+.social-networks-items {
+	display: flex;
+}
+
+.lower-nav,
+.contacts,
+.question-box,
+.phone-order {
+	width: 50%;
+}
+
+.lower-menu,
+.order-info {
+	padding: 2em 0 3em 0;
+}
+
+.lower-menu:nth-child(1) {
+	width: 45%;
+}
+
+.lower-menu:nth-child(2) {
+	width: 55%;
+}
+
+.lower-menu:nth-child(1) .customer-info {
+	margin: 13% 0 0 0;
+}
+
+.lower-menu:nth-child(2) .customer-info {
+	margin: 10% 0 0 0;
+}
+
+.contacts {
+	border-left: 1px solid #e5e5e5;
+	padding: 0 0 5.6em 0;
+}
+
+.segment-name {
+	font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+	font-size: 10pt;
+	font-weight: bold;
+}
+
+.customer-info {
+	font-size: 9pt;
+	margin: 5% 0 15% 0;
+	padding: 0;
+}
+
+.link {
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	padding: 0.7em 0 1em 0;
+}
+
+.link a:hover {
+	text-decoration: underline;
+}
+
+.order-info {
+	width: 93%;
+}
+
+.order-info,
+.quote,
+.social-networks-items {
+	margin-left: 9%;
+}
+
+.question-box,
+.phone-order {
+	font-size: 9pt;
+	margin: 0;
+}
+
+.tweet-box p {
+	margin: 0 0 0 2%;
+}
+
+.quote {
+	padding: 0 0 1.4em 0;
+}
+
+.quote .cursive-text {
+	font-size: 10pt;
+	line-height: 25px;
+}
+
+.social-networks-items .icon-wrap:nth-child(1) {
+	margin: 0 3% 0 0;
+}
+
+.footer hr {
+	position: absolute;
+	top: 96.5%;
+	left: -0.1%;
+	width: 100%;
+	color: #e5e5e5;
+}
+
+/*rights-block*/
+
+.footer {
+	border-top: 1px solid #d2d2d2;
+}
+
+.rights-block,
+.nav-contact-block {
+	display: flex;
+	max-width: 1180px;
+	width: 91%;
+	margin: 0 auto;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.share-info-box {
+	width: 50%;
+}
+
+.rights-box,
+.policy-map-box {
+	width: 25%;
+	font-size: 7.5pt;
+	font-weight: bold;
+}
+
+.rights-box p,
+.policy-map-box p {
+	margin: 1.7em 0 0.9em 0;
+}
+
+.policy-map-box-text {
+	font-weight: bold;
+}
+
+.share-info-box-wrap {
+	margin: 0 auto;
+}
+
+.share-info-box p {
+	font-size: 12pt;
+	margin: 0.8em 0 0 0;
+}
+
+.followers-inticator {
+	margin: 1.3em 0 1.3em 1.2em;
+	padding: 0.35em;
+	background: #f4f4f4;
+	height: 20%;
+	font-size: 8pt;
+}
+
+.share-info-box {
+	justify-content: center;
+}
+
+.share-info-box p,
+.rights-box p {
+	font-weight: bold;
+}
+
+.policy-map-box-text,
+.rights-box p,
+.share-info-box p {
+	padding: 0;
+}
+
+.policy-map-box {
+	justify-content: space-between;
+}
+
+.policy-map-box p a:hover {
+	color: #f14a58;
+}
+
+
+
+

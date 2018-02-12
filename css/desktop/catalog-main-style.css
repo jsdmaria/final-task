@@ -1,0 +1,242 @@
+.filters-block {
+	width: 100%;
+	margin: 0 auto;
+	border-top: 1px solid #e5e5e5;
+	border-bottom: 1px solid #e5e5e5;
+}
+
+.filter-selections li {
+	list-style: none;
+	width: 16.6%;
+	padding: 0;
+}
+
+.filters-block .filter-selections li .ul-hover li:first-child,
+.filters-block .filter-selections li .ul-hover li,
+.filters-block .filter-selections li .ul-hover li:last-child {
+	padding: 4% 0 4% 8%;
+	border-bottom: 1px solid transparent;
+	border-left: none;
+	width: 92%;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 9pt;
+}
+
+.filters-block .filter-selections li .ul-hover li:first-child:hover,
+.filters-block .filter-selections li .ul-hover li:hover,
+.filters-block .filter-selections li .ul-hover li:last-child:hover {
+	background-color: #f7f7f7;
+	color: #f14a58;
+}
+
+.filters-block .filter-selections li:first-child {
+	padding: 1.2em 2em 1.2em 4em;
+}
+
+.filters-block .filter-selections li {
+	font-size: 11pt;
+	font-weight: bold;
+	cursor: pointer;
+	padding: 1.2em 1.2em 1.2em 1em;
+	position: relative;
+	border-left: 1px solid transparent;
+	border-right: 1px solid transparent;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+}
+
+.filters-block .filter-selections li:hover {
+	border-left: 1px solid #e5e5e5;
+	border-right: 1px solid #e5e5e5;
+}
+
+.filters-block .filter-selections li .ul-hover li:hover {
+	border-left: none;
+}
+
+.filters-block .filter-selections li:first-child {
+	border-left: none;
+}
+
+.filters-block .filter-selections li:last-child {
+	border-right: none;
+	padding: 1.2em 4.2em 1.2em 1.2em;
+}
+
+.filter-selections {
+	display: flex;
+	justify-content: space-between;
+	margin: 0 auto;
+	padding: 0;
+	font-weight: bold;
+}
+
+.li-img {
+	float: right;
+	height: auto;
+	margin: 5% 0 0 10%;
+}
+
+.abs-div {
+	position: absolute;
+	top: 15%;
+	opacity: 0;
+	font-size: 9pt;
+	display: block;
+}
+
+.item-price .coma {
+	opacity: 0;
+}
+
+/*menu*/
+
+.filter-selections li .ul-hover{
+	position: absolute;
+	top: -9999px;
+	background-color: #fff;
+}
+
+.filters-block .filter-selections li:first-child .ul-hover,
+.filters-block .filter-selections li .ul-hover,
+.filters-block .filter-selections li:last-child .ul-hover {
+	width: 100%;
+	height: auto;
+	left: -1px;
+	border: 1px solid #d2d2d2;
+}
+
+.filters-block .filter-selections .item-fashion .ul-hover li,
+.filters-block .filter-selections .item-fashion .ul-hover li:first-child,
+.filters-block .filter-selections .item-fashion .ul-hover li:last-child {
+	padding: 4% 0 4% 21%;
+	width: 79%;
+}
+
+.filters-block .filter-selections li:last-child .ul-hover {
+	width: 99%;
+	border-right: none;
+}
+
+.filter-selections li .ul-hover {
+	border-top: none;
+	padding: 0;
+	opacity: 0;
+}
+
+.filter-selections li:hover .ul-hover {
+	opacity: 1;
+	top: 100%;
+	z-index: 2;
+}
+
+.trian {
+	display: none;
+}
+
+.back-box {
+	display: none;
+	position: absolute;
+	top: 102%;
+	width: 100%;
+	background: #fff;
+	height: 48em;
+	z-index: 2;
+}
+
+/*Goods block*/
+
+.goods-block {
+	flex-wrap: wrap;
+	width: 95%;
+}
+
+.goods-box {
+	width: 25%;
+	padding-top: 5em;
+}
+
+
+.background {
+	left: 10%;
+	width: 80%;
+}
+
+.good-name,
+.good-price,
+.cursive-text {
+	font-size: 10pt;
+}
+
+.good-name {
+	width: 80%;
+	padding-bottom: 0.7em;
+	margin: 0 auto;
+}
+
+.good-price,
+.cursive-text {
+	margin: 0.5em;
+}
+
+/*stock-propositions-block*/
+
+.stock-propositions-mob-block,
+.stock-propositions-tab-block {
+	display: none;
+}
+
+.text-proposition br,
+.cursive-text br {
+	content: "";
+}
+
+.stock-propositions-tab-block .cursive-text{
+	font-weight: normal;
+}
+
+.stock-propositions-block,
+.stock-propositions-mob-block,
+.stock-propositions-tab-block {
+	width: 100%;
+	padding: 4% 0 2% 0;
+	text-align: center;
+}
+
+.text-container {
+	display: flex;
+	justify-content: center;
+}
+
+.text-prop-color {
+	padding-left: 0.5%;
+	padding-right: 0.5%;
+}
+
+.text-proposition,
+.text-prop-color {
+	font-size: 16pt;
+	font-weight: bold;
+}
+
+.text-prop-color {
+	color: #f14a58;
+}
+
+.stock-propositions-block .cursive-text {
+	margin: 0;
+	font-size: 12pt;
+	color: #262626;
+}
+
+/*button-block*/
+
+.main-button {
+	margin: 7% 0 12% 0;
+	padding: 1.7% 7% 1.7% 7%;
+}
+
+.coma {
+	opacity: 0;
+}
+
